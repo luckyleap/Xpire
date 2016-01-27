@@ -518,6 +518,7 @@
 			baseConfigurationReference = 885823DEEC5A4AB2504ADA16 /* Pods-ReceiptsOCR.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ReceiptsOCR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tsuidavid.ReceiptsOCR;
@@ -530,6 +531,7 @@
 			baseConfigurationReference = 0B672808EF1C51E5ADF8E110 /* Pods-ReceiptsOCR.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ReceiptsOCR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tsuidavid.ReceiptsOCR;
